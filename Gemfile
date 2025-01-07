@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "mapkick-rb", "~> 0.1.5"
 
 gem 'devise'
-gem "ostruct", "~> 0.6.0"
+gem "ostruct", "~> 0.6.1"
 gem "geocoder", "~> 1.8"
 gem "money-rails", "~> 1.15"
 gem "sassc-rails", "~> 2.1"
