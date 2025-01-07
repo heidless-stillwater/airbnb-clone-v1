@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "mapkick-rb", "~> 0.1.5"
+gem "mapkick-rb", "~> 0.2.0"
 
 gem 'devise'
 gem "ostruct", "~> 0.6.0"
