@@ -383,7 +383,7 @@ DEPENDENCIES
   factory_bot_rails (~> 6.4)
   faker (~> 3.5)
   geocoder (~> 1.8)
-  image_processing (~> 1.2)
+  image_processing (>= 1.2)
   importmap-rails
   jbuilder
   mapkick-rb (~> 0.1.5)
