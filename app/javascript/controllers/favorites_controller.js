@@ -11,9 +11,9 @@ export default class extends Controller {
     console.log('favorite button clicked - favorites', this.element.dataset.favorited )
     if (this.element.dataset.favorited === 'true') {
       axios.delete(this.element.dataset.unfavoriteUrl, {
-      headers: {
-        'ACCEPT': 'application/json'
-      }   
+        headers: {
+          'ACCEPT': 'application/json'
+        }   
       }).then((response) => {
         this.element.dataset.favorited = 'false'
         this.element.setAttribute('fill', '#CED4DA');
