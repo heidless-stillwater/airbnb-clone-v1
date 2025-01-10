@@ -10,7 +10,7 @@ export default class extends Controller {
 
     console.log('favorite button clicked - favorites', this.element.dataset.favorited )
     if (this.element.dataset.favorited === 'true') {
-      axios.delete(this.getUnfavoritePath(this.element.dataset.favoriteId), {
+      axios.delete(this.element.dataset.unfavoriteUrl, {
       headers: {
         'ACCEPT': 'application/json'
       }   
@@ -19,7 +19,7 @@ export default class extends Controller {
         this.element.setAttribute('fill', '#CED4DA');
       });
     } else {
-      axios.post(this.getFavoritePath(), {
+      axios.post(this.element.dataset.favoriteUrl, {
           user_id: this.element.dataset.userId,
           property_id: this.element.dataset.propertyId
         }, {
