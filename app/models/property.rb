@@ -32,4 +32,10 @@ class Property < ApplicationRecord
     [state, country].compact.join(', ')
   end
 
+  def favorited_by?(user)
+    return if user.nil?
+
+    favorited_users.include?(user)
+  end
+
 end
