@@ -9,6 +9,9 @@ gem "money-rails", "~> 1.15"
 gem "sassc-rails", "~> 2.1"
 gem "rmagick", "~> 6.0"
 gem "jsonapi-serializer"
+gem 'google-cloud-storage', '~> 1.52'
+
+gem "nokogiri", force_ruby_platform: true
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.1"
