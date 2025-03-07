@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "mapkick-rb", "~> 0.1.5"
 
-gem 'devise'
+gem "devise"
 gem "ostruct", "~> 0.6.0"
 gem "geocoder", "~> 1.8"
 gem "money-rails", "~> 1.15"
@@ -10,7 +10,7 @@ gem "sassc-rails", "~> 2.1"
 gem "rmagick", "~> 6.0"
 gem "jsonapi-serializer"
 
-gem 'nokogiri', '~> 1.18', '>= 1.18.1'
+gem "nokogiri", "~> 1.18", ">= 1.18.1"
 # gem "nokogiri"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -50,7 +50,7 @@ gem "bootsnap", require: false
 gem "image_processing", ">= 1.2"
 
 group :development, :test do
-  gem 'rspec-rails', '~> 7.0.0'
+  gem "rspec-rails", "~> 7.0.0"
   gem "factory_bot_rails", "~> 6.4"
   gem "pry-rails", "~> 0.3.11"
   gem "shoulda-matchers", "~> 6.4"
@@ -72,4 +72,3 @@ group :development do
 end
 
 gem "faker", "~> 3.5"
-
