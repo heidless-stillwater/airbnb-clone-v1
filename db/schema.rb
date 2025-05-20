@@ -123,3 +123,4 @@ ActiveRecord::Schema[7.2].define(version: 2025_01_09_140517) do
   add_foreign_key "favorites", "users"
   add_foreign_key "profiles", "users"
 end
+
