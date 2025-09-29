@@ -1,0 +1,8 @@
+# public_access_policy.yaml
+name: projects/heidless-portfolio/policies/iam.allowedPolicyMemberDomains
+spec:
+  # This field tells gcloud to completely replace any policy inherited from the Organization/Folder.
+  inheritFromParent: false 
+  rules:
+    - allowAll: true # The canonical way to say "allow all domains" and disable the restriction.
+    
